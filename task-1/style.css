@@ -1,0 +1,120 @@
+.flags{
+    margin: 0 auto;
+    text-align: center;
+}
+.flags_block{
+   width: 500px;
+   justify-content: center; 
+}
+.flags_block .block{
+    width: 350px;
+    margin:  20px;
+}
+/* Ukraine */
+.ukraine{
+    width: 300px;
+    height: 200px;
+}
+.yellow_block{
+    background: yellow;
+    height: 100px;
+}
+.blue_block{
+    height: 100px;
+    background: blue;
+}
+/* Japan */
+.japan{
+    width: 300px;
+    height: 200px;
+}
+.white_block{
+    position: relative;
+    height: 200px;
+    background: rgb(239, 234, 224);
+}
+.red_block{
+    position: absolute;
+    top: 50px;
+    left: 125px;
+    background: red;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+/* Iceland */
+.iceland{
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background: white;
+}
+.square1{
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    background: blue;
+}
+.square2{
+    position: absolute;
+    bottom: 0px;
+    width: 75px;
+    height: 75px;
+    background: blue;
+}
+.rectangle_1{
+    position: absolute;
+    right: 0px;
+    width: 205px;
+    height: 75px;
+    background: blue;
+}
+.rectangle_2{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    width: 205px;
+    height: 75px;
+    background: blue;
+}
+.vertical_line{
+    position: absolute;
+    width: 40px;
+    height: 100%;
+    left: 90px;
+    background: red;
+}
+.gorizont_line{
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    top: 80px;
+    background: red;
+}
+/* czech */
+.сzech{
+    position: relative;
+    width: 300px;
+    height: 200px;
+}
+.white_czech{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background: white;
+}
+.red_czech{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    bottom: 0px;
+    background: red;
+}
+.triangle{
+    position: absolute;
+    width: 0;
+	height: 0;
+	border-top: 100px solid transparent;
+	border-left: 175px solid  blue;
+	border-bottom: 100px solid transparent;
+}
